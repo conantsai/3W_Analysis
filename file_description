@@ -1,0 +1,45 @@
+data2 dict - Dataset of each quadro W model
+face_recognize dict - Model to recognize people
+    segmentation_CDCL dict - Model to segmentation human
+nlp_recognize dict - configuration file of Jieba
+    pos.json - Pos need to segment
+    extra_dict.txt - Extral word dictionary to help word segmentation
+    speak_forcus.json - Forcus words to extract
+object_recognize dict - To recognize object
+    attention.txt - Model training steps.
+    scripts dict
+        generate_tfrecord.py - Convert the information of the item data (csv) into tf record
+        xml_to_csv.py - Convert the information of the item data (xml) into csv
+    workspace dict
+        test_demo dict
+            inference2.py - To test object detction by training model
+        train_demo dict
+            annotations dict - Dataset information
+            model dict - Training model
+            pre-trained-model - Pretrained model
+            model_main.py - To Train object detction model
+            train.config - configuration file of training detection model, the pound sign my need to be modified before train model.
+places_recognize dict - To recognize place
+q_table dict - To save past q_table
+voice_extract dict - To split out voice from original sound
+qt_ui dict- 
+    main_ui.py - ui of main window
+    speach_ui.py - ui of speach segmentation
+    untitled.ui - ui of main window
+    untitled2.ui - ui of speach segmentation
+record dict - data captured by ipcam
+temporarily_rtsp_data dict - Temporary storage of audio captured by ip cam 
+trans_model dict - checkpoint or h5 format convert to pb format
+access_QWrecord.py - Access Quadro W record to display on ui
+audio_recorder.py - Capture audio from ipcam 
+h52pb.py - Convert h5 model format to pb format
+ip_cam_capture.py - Test ipcam is Working normally
+load_cdcl.py - Load training model of human segmentation
+load_model.py - Load training model 
+merge_result.py - merge Quadro W result to amend result
+neo4j.py - Create Visualization konwlege graph
+preprocess.py - Preprocess data
+qlearning.py - q learning
+qlearning2.py - q learning with speach word
+video_recorder.py - Capture frame from ipcam 
+ui_main.py - main code

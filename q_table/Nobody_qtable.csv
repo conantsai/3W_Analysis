@@ -1,0 +1,17 @@
+,afternoon_laboratory_NoObject,afternoon_laboratory_bowl,morning_laboratory_computer,morning_laboratory_bowl,morning_laboratory_phone,morning_laboratory_bed,midnight_laboratory_bed,evening_laboratory_bed,evening_laboratory_phone,evening_laboratory_bowl,evening_laboratory_computer,afternoon_laboratory_computer,afternoon_laboratory_book,morning_laboratory_book,afternoon_laboratory_phone,evening_laboratory_book
+afternoon_laboratory_NoObject,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+afternoon_laboratory_bowl,112.91254284913767,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,190.79783674536938,0.0,0.0,105.73338546492725,0.0
+morning_laboratory_computer,0.0,223.78129758539302,0.0,0.0,128.75563110728518,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+morning_laboratory_bowl,0.0,0.0,214.22641907280502,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,110.04602095876174,117.36224652740228,0.0,0.0
+morning_laboratory_phone,0.0,109.52328168470632,104.34442764342603,236.7099092461709,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+morning_laboratory_bed,0.0,0.0,0.0,0.0,245.50264281261252,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+midnight_laboratory_bed,0.0,0.0,0.0,0.0,0.0,239.92818418956094,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+evening_laboratory_bed,0.0,0.0,0.0,0.0,0.0,0.0,235.9330934285345,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+evening_laboratory_phone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,219.8782040473798,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+evening_laboratory_bowl,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,160.56907564970936,0.0,170.0253049616593,0.0,0.0,0.0,0.0,103.7961126386593
+evening_laboratory_computer,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,104.29037031442103,118.44759671829593,0.0,0.0,0.0,0.0,0.0,72.96169459852557
+afternoon_laboratory_computer,0.0,0.0,0.0,118.75623929289786,0.0,0.0,0.0,0.0,0.0,130.68858481766395,0.0,0.0,96.96084319758076,0.0,153.44124259180217,0.0
+afternoon_laboratory_book,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,154.9873285675646,0.0,0.0,0.0,0.0
+morning_laboratory_book,0.0,0.0,107.9730283228925,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+afternoon_laboratory_phone,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,152.19119747713967,0.0,118.76144214385992,96.60182526202415,0.0,0.0,0.0
+evening_laboratory_book,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.74334691005282,0.0,0.0,0.0,0.0,0.0,0.0,0.0

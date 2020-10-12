@@ -1,0 +1,8 @@
+# Execution order
+1. Put the image file and xml file to (object_recognize/code/workspace/training_demo/images). and split it to test and train.
+2. Excute (object_recognize/code/scripts/preprocessing/xml_to_csv.py) to transform all xml information to one csv file
+3. Excute (object_recognize/code/scripts/preprocessing/generate_tfrecord.py) to transform csv file to TF record
+4. Modify (object_recognize/code/workspace/training_demo/train.config) if need.
+5. Excute (object_recognize/code/workspace/training_demo/model_main.py) to train model
+6. Excute (object_recognize/code/workspace/training_demo/export_inference_graph.py) to transform checkpoint to PB
+7. Excute (/home/uscc/thesis2/object_recognize/code/workspace/test_demo/inference2.py) to test rsult

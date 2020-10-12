@@ -1,0 +1,29 @@
+item {
+    id: 1
+    name: 'bed'
+}
+
+item {
+    id: 2
+    name: 'book'
+}
+
+item {
+    id: 3
+    name: 'bowl'
+}
+
+item {
+    id: 4
+    name: 'computer'
+}
+
+item {
+    id: 5
+    name: 'pen'
+}
+
+item {
+    id: 6
+    name: 'phone'
+}

@@ -1,0 +1,2 @@
+bedroom 0
+laboratory 1

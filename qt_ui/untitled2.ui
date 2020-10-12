@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>dialog</class>
+ <widget class="QDialog" name="dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>687</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Speaking Information</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>666</width>
+     <height>394</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>666</width>
+      <height>394</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <row>
+     <property name="text">
+      <string>Noun, n</string>
+     </property>
+     <property name="background">
+      <color>
+       <red>255</red>
+       <green>0</green>
+       <blue>0</blue>
+      </color>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>People Name, nr</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>People Full Name, nrfg*</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Organization Name, nt</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Proper Nouns, nz</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Place Name, ns</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Tense Morpheme, tg</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Verb, v</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Volitive auxiliary, vg</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Inflectional morpheme, vg</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Adverb, d</string>
+     </property>
+    </row>
+    <row>
+     <property name="text">
+      <string>Frequency adverb, t</string>
+     </property>
+    </row>
+    <column>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>410</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Close</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
